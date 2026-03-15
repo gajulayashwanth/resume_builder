@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
-    <footer className="bg-[#1E1B4B] text-white">
+    <footer className="bg-gray-950 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
 
@@ -21,7 +21,7 @@ export default function Footer() {
               <span className="font-bold text-lg">WeBuild</span>
             </div>
             <p className="text-white/50 text-sm leading-relaxed mb-4">
-              Free AI-powered resume builder, portfolio generator & cover letter creator for freshers and professionals in India.
+              Free AI-powered resume builder, portfolio generator & cover letter creator for freshers and professionals.
             </p>
             <p className="text-white/30 text-xs">🔒 We never sell your data</p>
           </div>
